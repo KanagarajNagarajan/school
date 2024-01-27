@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: 0.3s;
+    line-height: 27px;
+}
+:root{
+    --primarycolour:#1c1b3b;
+    --headingcolour:#18253A;
+    --subheadingcolour:#333333;
+    --paragraphcolour:#525252;
+    --fontfamiley:"Poppins",sans-serif;
+    --border-bottom: 5px solid #c50227 ;
+}
+.navbar{
+    background-color:var(--primarycolour);
+    
+}
+.nav-item a{
+    color: #fff;
+    font-family: var(--fontfamiley);
+    font-weight: 600;
+}
+.nav-item a:hover{
+    color: #fff;
+    border-bottom:  5px solid #c50227;
+}
+.dropdown-menu a{
+    color: var(--subheadingcolour);
+}
+.d-flex .btn{
+    background-color: #c50227;
+    border: none;
+    color: #fff;
+    padding: 20px;
+    border-radius: 0px;
+}
+.navbar-brand img{
+    width: 200px;
+    /* background-color: white; */
+}
+.about .content{
+    padding-left: 25px;
+}
+.about .content h5{
+font-family: var(--fontfamiley);
+color: var(--headingcolour);
+font-weight: 600;
+font-size: 16px;
+}
+.about .content p{
+    font-family: var(--fontfamiley);
+    color: var(--subheadingcolour);
+    font-weight: 500;
+    font-size: 14px;
+}
+.about .image1 img{
+    width: 100%;
+}
+.content2 h5{
+    text-align: center;
+    padding-bottom: 10px;
+    border-left: 2px solid #c50227;
+    font-family: var(--fontfamiley);
+    font-weight: 600;
+    color: var(--headingcolour);
+}
+.content2 p{
+    color: var(--paragraphcolour);
+    font-family: var(--fontfamiley);
+}
+.applysection h5{
+    color: var(--headingcolour);
+    font-weight: 600;
+    font-family: var(--fontfamiley);
+}
+.applysection h6{
+    color: var(--subheadingcolour);
+    font-weight: 400;
+    font-family: var(--fontfamiley);
+}
+.applysection p{
+    padding-top: 20px;
+    font-family: var(--fontfamiley);
+
+}
+.applysection img{
+    width: 100%;
+}
+.ourschool{
+    background-color: var(--primarycolour);
+}
+.ourschool h5{
+    padding-top: 30px;
+    font-family: var(--fontfamiley);
+    color: #3db166;
+}
+.ourschool p{
+    font-family: var(--fontfamiley);
+    color: aliceblue;
+    padding-top: 20px;
+}
